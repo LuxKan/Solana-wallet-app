@@ -9,7 +9,7 @@ import { WalletModalProvider } from '@solana/wallet-adapter-react-ui';
 import { clusterApiUrl } from '@solana/web3.js';
 import WalletConnect from './components/WalletConnect';
 import './App.css';
-
+import DemoWallets from './components/DemoWallets';
 require('@solana/wallet-adapter-react-ui/styles.css');
 
 // Use .env for QuickNode endpoints
@@ -148,6 +148,7 @@ const App: FC = () => {
                 )}
                 <div className="wallet-connect-container">
                   <WalletConnect endpoint={endpoint} />
+                  <DemoWallets endpoint={endpoint} />
                 </div>
               </div>
             </main>

@@ -96,6 +96,16 @@ const WalletConnect: FC<WalletConnectProps> = ({ endpoint }) => {
   return (
     <div className="wallet-container">
       <WalletMultiButton />
+      <a
+        href="https://netlify.com"
+        target="_blank"
+        rel="noopener noreferrer"
+        style={{ textDecoration: 'none' }}
+      >
+        <button className="netlify-btn">
+          Netlify Demo
+        </button>
+      </a>
       {connected && (
         <div className="wallet-info">
           <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>

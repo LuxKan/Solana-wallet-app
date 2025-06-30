@@ -668,3 +668,17 @@ body.dark-mode {
   animation: fadeIn 0.3s;
   text-align: center;
 } 
+
+.netlify-btn {
+  background: linear-gradient(90deg, #a259ff 0%, #3772ff 100%);
+  color: #fff;
+  font-weight: 700;
+  border: none;
+  border-radius: 12px;
+  padding: 14px 32px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: box-shadow 0.2s, transform 0.2s;
+  box-shadow: 0 2px 8px rgba(55, 114, 255, 0.15);
+  margin-left: 8px;
+}
